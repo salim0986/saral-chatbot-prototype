@@ -16,6 +16,10 @@ For an in-depth look at the architecture, service boundaries, robust systems des
 
 For an in-depth look at the AI tools used, prompts and responses, please see the [AI Usage Documentation](docs/AI_USAGE_DOCUMENT.md).
 
+## Implementation Plan (Part B Deliverable)
+
+For details on the retrieval index construction, math-preserving chunking strategy, and the parameterized prompt template family, please review the [1-Page Plan](docs/PLAN.md).
+
 ## Quick Start (Dockerized)
 
 The entire platform is containerized for instant local development and easy cloud deployment (GCP, AWS, etc.).
