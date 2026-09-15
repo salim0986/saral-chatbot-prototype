@@ -54,4 +54,4 @@ We also run programmatic evaluation metrics on translation quality and faithfuln
 
 ## Next Steps & Production Path
 
-While this prototype uses SQLite and synchronous FastAPI background tasks for simplicity, the service boundaries are drawn to seamlessly upgrade to **PostgreSQL** and distributed queues (like RabbitMQ) for the ingestion pipelines. It's built to plug right into larger institutional architectures, perfectly aligning with platforms designed for massive scholarly data exploration.
+While this prototype uses SQLite and synchronous FastAPI background tasks for simplicity, the service boundaries are drawn to seamlessly upgrade to **PostgreSQL** and distributed queues (like RabbitMQ) for the ingestion pipelines, adding authentication and roles and using production grade models. It's built to plug right into larger institutional architectures, perfectly aligning with platforms designed for massive scholarly data exploration.
