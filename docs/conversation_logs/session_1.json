@@ -1,0 +1,51 @@
+{
+  "session_id": "sess_01",
+  "paper_title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "audience": "Policymakers",
+  "length": "90 seconds",
+  "history": [
+    {
+      "role": "user",
+      "content": "Upload: RAG_NeurIPS20.pdf"
+    },
+    {
+      "role": "assistant",
+      "content": "Paper ingested. Extracted 42 chunks.",
+      "action": "ingest"
+    },
+    {
+      "role": "user",
+      "content": "Generate a 90-second script for Policymakers."
+    },
+    {
+      "role": "assistant",
+      "content": "Generated version 1.",
+      "output": {
+        "slides": [
+          {
+            "slide_number": 1,
+            "text": "Retrieval-Augmented Generation (RAG) is a new AI method.",
+            "source_ids": ["chunk_12"]
+          }
+        ]
+      }
+    },
+    {
+      "role": "user",
+      "content": "Make slide 1 less technical and emphasize safety."
+    },
+    {
+      "role": "assistant",
+      "content": "Generated version 2.",
+      "output": {
+        "slides": [
+          {
+            "slide_number": 1,
+            "text": "RAG is a secure AI method that verifies facts before answering.",
+            "source_ids": ["chunk_15"]
+          }
+        ]
+      }
+    }
+  ]
+}

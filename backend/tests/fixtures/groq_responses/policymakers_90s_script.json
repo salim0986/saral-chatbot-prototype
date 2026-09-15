@@ -1,0 +1,66 @@
+{
+  "output_type": "speaker_script",
+  "audience": "policymakers",
+  "length": "90s",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "What This Research Does",
+      "bullets": [
+        "Transforms how AI models process language",
+        "Eliminates the need for sequential computation",
+        "Enables parallel processing at national scale"
+      ],
+      "script": "Good morning. Today I want to tell you about a breakthrough that is quietly powering every AI system you interact with - from translation services to document analysis.",
+      "speaker_notes": "Pause after 'Good morning'. Make eye contact. Do not use jargon.",
+      "sentences": [
+        {
+          "text": "Good morning. Today I want to tell you about a breakthrough that is quietly powering every AI system you interact with.",
+          "source_ids": [
+            "chunk-01",
+            "chunk-02"
+          ],
+          "source_pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "title": "The Core Innovation",
+      "bullets": [
+        "Attention: the model focuses only on what matters",
+        "8× faster than previous approaches",
+        "Already adopted by ANRF-funded research teams"
+      ],
+      "script": "The key innovation is called attention. Think of it like a spotlight that the system uses to highlight only the most relevant information when answering a question.",
+      "speaker_notes": "Use the spotlight analogy. Avoid 'dot-product' or 'softmax'.",
+      "sentences": [
+        {
+          "text": "The key innovation is called attention.",
+          "source_ids": [
+            "chunk-03"
+          ],
+          "source_pages": [
+            3
+          ]
+        },
+        {
+          "text": "Think of it like a spotlight that the system uses to highlight only the most relevant information when answering a question.",
+          "source_ids": [
+            "chunk-03",
+            "chunk-04"
+          ],
+          "source_pages": [
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "citation_coverage": 1.0,
+  "low_confidence": false
+}

@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section{Introduction}
+This is a sample research paper used as a test fixture.
+It covers the transformer attention mechanism and its applications.
+
+\section{Background}
+Previous work on sequence modeling relied on recurrent networks.
+These had issues with long-range dependencies and parallelism.
+
+\subsection{Notation}
+Let $Q$, $K$, $V$ denote query, key, and value matrices respectively.
+The dimensionality of the model is denoted $d_{\text{model}}$.
+
+\section{Methods}
+We propose the scaled dot-product attention mechanism.
+
+The core formula is:
+\begin{equation}
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+\end{equation}
+
+This can be extended to multi-head attention:
+\begin{align}
+\text{MultiHead}(Q, K, V) &= \text{Concat}(\text{head}_1, \ldots, \text{head}_h) W^O \\
+\text{head}_i &= \text{Attention}(QW_i^Q, KW_i^K, VW_i^V)
+\end{align}
+
+\section{Results}
+The model achieves state-of-the-art performance on WMT 2014 English-German translation,
+with a BLEU score of 28.4, outperforming previous best results including ensembles.
+
+\section{Conclusion}
+We introduced the Transformer architecture based purely on attention mechanisms,
+dispensing with recurrence and convolutions entirely.
+
+\end{document}
