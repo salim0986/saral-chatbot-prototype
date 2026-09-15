@@ -12,6 +12,10 @@ At its heart, SARAL is a multi-tenant-ready web system designed to handle asynch
 
 For an in-depth look at the architecture, service boundaries, robust systems design, and our algorithmic approach to diffing and RAG provenance, please see the [Architecture Documentation](docs/ARCHITECTURE.md).
 
+## AI Usage Documentation
+
+For an in-depth look at the AI tools used, prompts and responses, please see the [AI Usage Documentation](docs/AI_USAGE_DOCUMENT.md).
+
 ## Quick Start (Dockerized)
 
 The entire platform is containerized for instant local development and easy cloud deployment (GCP, AWS, etc.).
